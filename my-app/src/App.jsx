@@ -214,6 +214,7 @@ const App = () => {
         >
           <input
             type="text"
+            value={editUser?.name}
             onChange={(e) => setEditUser({ ...editUser, name: e.target.value })}
             className="border-2 rounded-xl py-1 px-5"
             placeholder="Name..."
